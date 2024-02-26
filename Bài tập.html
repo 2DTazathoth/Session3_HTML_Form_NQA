@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- bài tập sở thích -->
+    <form action="" method="post">
+        <h1>SỞ THÍCH CỦA BẠN</h1>
+        Họ Và Tên<input type="text" name="yourname"><br>
+        Email <Input type="email" name="Email"></Input><br>
+        <label><input type="checkbox" name="thethao" value="Thể thao"> Thể thao</label><br>
+        <label><input type="checkbox" name="amnhac" value="Âm nhạc"> Âm nhạc</label><br>
+        <label><input type="checkbox" name="docsach" value="Đọc sách"> Đọc sách</label><br>
+        <label><input type="checkbox" name="luotweb" value="Lướt web"> Lướt web</label><br>
+        <label><input type="checkbox" name="choigame" value="Chơi game"> Chơi game</label><br>
+        <label><input type="checkbox" name="dienanh" value="Điện ảnh"> Điện ảnh</label><br>
+        <label><input type="checkbox" name="dulich" value="Du lịch"> Du lịch</label><br>
+        <input type="submit" value="Gửi thông tin">
+        <input type="reset" value="Nhập lại">
+    </form>
+    <!-- bài tập đăng kí học viên -->
+    <form action="" method="post">
+        <h1>Đăng Ký Học Viên</h1>
+        <label>Họ và tên: <input type="text" name="Họ và tên"></label><br>
+        <label>Ngày sinh: <input type="date" name="Ngày sinh"></label><br>
+        <label><input type="radio" name="gioitinh"> Male <br>
+            <input type="radio" name="gioitinh"> Nữ</label><br>
+        <label>Địa chỉ: <textarea name="Địa chỉ" rows="4"></textarea></label><br>
+        <label for="class">Lớp:
+            <select name="class">
+                <option>Chọn lớp</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>
+        </label>
+        <br>
+        <label>Email: <input type="email" name="email" required></label><br>
+        <label>Điện thoại: <input type="tel" name="Điện thoại"></label><br>
+        <input type="reset" value="Nhập lại">
+
+        <br>
+    </form>
+    <!-- Bài tập đăng kí thông tin khách hàng -->
+<h1>Market Research Survey</h1>
+    <p>Please take a few monments to complete this satisfaction survey</p>
+    <hr>
+    <form action="" method="get">
+        <label><strong>what is your age range?</strong>
+            <br>
+            <select name="age-range">
+                <option value="">18-24</option>
+            </select>
+        </label>
+        <br>
+
+        <label><strong>what is your yearly income range?</strong>
+            <br>
+            <select name="year-income">
+                <option value="">$0-$25,000</option>
+            </select>
+        </label>
+        <br>
+
+        <label for=""><strong>Gender Identity</strong>
+            <br>
+            <label><input type="radio" name="render"> Male <br>
+                <input type="radio" name="render"> Female<br>
+                <input type="radio" name="render"> Nonbinary<br>
+                <input type="radio" name="render"> other<br>
+            </label>
+
+            <label for=""><strong>Which of the following products have your purchase in the class 2 months. Please check
+                    all that apply </strong>
+                <br>
+                <label><input type="checkbox" name="checkbox"> Product 1 <br>
+                    <input type="checkbox" name="checkbox"> Product 2<br>
+                    <input type="checkbox" name="checkbox"> Product 3<br>
+                </label>
+
+                <label for=""><strong>How often would you see our new product</strong>
+                    <br>
+                    <input type="radio" name="new product"> Daily <br>
+                    <input type="radio" name="new product"> Weekly<br>
+                    <input type="radio" name="new product"> Monthly<br>
+                </label>
+
+                <label for=""><strong>what would you pay for the new product</strong>
+                    <br>
+                    $ <input type="text"> - <input type="text"><br>
+                    Dollars Cents
+                    <br>
+                </label>
+                <br>
+
+                <label for=""><strong>what features would you like to see in the new product</strong>
+                    <br>
+                    <textarea name="features" rows="5"></textarea>
+                </label>
+                <br>
+
+                <label for=""><strong>Please rate your level of agreement with the following statements</strong>
+                    <table>
+                        <tr>
+                            <th></th>
+                            <th>Strongly Disagree</th>
+                            <th>Disagree</th>
+                            <th>Agree</th>
+                            <th>Strongly Agree</th>
+                        </tr>
+                        <tr>
+                            <th>Our product are price fairly</th>
+                            <td><label for=""> <input type="radio" name="radio1"><br>1</label></td>
+                            <td><label for=""> <input type="radio" name="radio1"><br>2</label></td>
+                            <td><label for=""> <input type="radio" name="radio1"><br>3</label></td>
+                            <td><label for=""> <input type="radio" name="radio1"><br>4</label></td>
+                        </tr>
+                        <tr>
+                            <th>Our product are high quality</th>
+                            <td><label for=""> <input type="radio" name="radio2"><br>1</label></td>
+                            <td><label for=""> <input type="radio" name="radio2"><br>2</label></td>
+                            <td><label for=""> <input type="radio" name="radio2"><br>3</label></td>
+                            <td><label for=""> <input type="radio" name="radio2"><br>4</label></td>
+                        </tr>
+                        <tr>
+                            <th>you would recomemend our product to a friend or coworker</th>
+                            <td><label for=""> <input type="radio" name="radio3"><br>1</label></td>
+                            <td><label for=""> <input type="radio" name="radio3"><br>2</label></td>
+                            <td><label for=""> <input type="radio" name="radio3"><br>3</label></td>
+                            <td><label for=""> <input type="radio" name="radio3"><br>4</label></td>
+                        </tr>
+                    </table>
+                </label>
+
+
+                <input type="submit" value="submit">
+
+    </form>
+
+    <!-- bài tập đăng kí thông tin người dùng -->
+    <form action="" method="post">
+        <h1>đăng kí thông tin</h1>
+        <label>Họ và Tên:</label>
+        <input type="text" name="fullname" required><br>
+        <label>Email:</label>
+        <input type="email" name="email" required><br>
+        <label>Giới tính:<br>
+            <input type="radio" name="gender"> Nam
+            <input type="radio" name="gender"> Nữ <br>
+        </label>
+            <input type="submit" value="Đăng ký">
+    </form>
+
+</body>
+
+</html>
